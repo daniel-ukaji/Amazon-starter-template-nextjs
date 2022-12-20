@@ -12,14 +12,14 @@ export default function Home({products}) {
 
       <Header />
 
-      <main className="max-w-screen-2xl mx-auto">
+      <div className="max-w-screen-2xl mx-auto">
         {/* Banner */}
         <Banner />
 
         {/* ProductFeed */}
         <ProductFeed products={products} />
         
-      </main>
+      </div>
     </div>
   );
 }
